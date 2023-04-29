@@ -33,7 +33,7 @@ button {
   background-color: white;
   text-align: center;
   border-radius: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 #shuffle-player {
   cursor: pointer;
@@ -48,6 +48,24 @@ button {
   font-size: 22px;
   white-space: nowrap;
   font-family: 'Gowun Batang', serif;
+}
+/* Todo List */
+#todo-div {
+  background-color: white;
+  padding: 10px 20px;
+}
+input[type='text'] {
+  width: 200px;
+  padding: 10px;
+  border-color: #000;
+  border-width: 0 0 1px;
+}
+h1,
+h2 {
+  margin: 5px;
+}
+#todo-list button {
+  margin-left: 5px;
 }
 /* body */
 body {
