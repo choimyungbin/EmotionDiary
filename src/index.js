@@ -1,0 +1,15 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import Calendar from 'react-calendar';
+import MusicPlayer from './components/Left/MusicPlayer';
+import Todo from './components/Right/Todo';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+const root1 = ReactDOM.createRoot(document.getElementById('player'));
+const root2 = ReactDOM.createRoot(document.getElementById('calender'));
+const root3 = ReactDOM.createRoot(document.getElementById('right'));
+root.render(<App />);
+root1.render(<MusicPlayer />);
+root2.render(<Calendar />);
+root3.render(<Todo />);
